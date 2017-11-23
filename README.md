@@ -18,7 +18,7 @@ The logical part of the server is divided in __model__, which is where the entit
 * __Resources__: The package where the are contained the classes using to get the requests and retrive the responses to/from the client.
    * The __Databaseinit__ class is mapped on _/database_ path.
    * The __PersonCollectionResource__ class is mapped on _/person_ path and contains the methods for getting all people and for posting a new person.
-   * The __PersonResource__ class contatins all the methods (GET, POST, DELETE, PUT) for managing a person and its for handling with its activities.
+   * The __PersonResource__ class contatins all the methods (GET, POST, DELETE, PUT) for managing a person and its activities.
    * The __ActivityTypeResource__ class is mapped on the _/activity_types_ path and is used for get activity types.
 
 #### 2.2. Task
